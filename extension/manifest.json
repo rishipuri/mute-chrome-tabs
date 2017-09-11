@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "Mute Chrome Tabs",
+  "version": "0.0.1",
+  "description": "A simple chrome extension to mute tabs with one click.",
+  "homepage_url": "https://github.com/rishipuri/mute-chrome-tabs",
+
+  "permissions": [
+    "tabs"
+  ],
+
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+
+  "browser_action": {
+    "default_title": "mute"
+  }
+}
